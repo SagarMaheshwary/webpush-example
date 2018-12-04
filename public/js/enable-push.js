@@ -61,7 +61,7 @@ function subscribeUser() {
             const subscribeOptions = {
                 userVisibleOnly: true,
                 applicationServerKey: urlBase64ToUint8Array(
-                    'BI1OV/aibZefhpHzair9kEQRk2yAb1fPut24O2QeBkb+McMie2dUVGTjS3splYffU9ncmSz+gZWbNpcfLhe+7NQ='
+                    'YOUR_VAPID_PUBLIC_KEY'
                 )
             };
 

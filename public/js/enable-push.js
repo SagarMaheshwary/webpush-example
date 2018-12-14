@@ -15,7 +15,7 @@ function initSW() {
     //don't use it here if you use service worker
     //for other stuff.
     if (!"PushManager" in window) {
-        //service worker isn't supported
+        //push isn't supported
         return;
     }
 

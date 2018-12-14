@@ -77,6 +77,8 @@
         </main>
     </div>
 
-    <script src="{{ asset('js/enable-push.js') }}" defer></script>
+    @auth
+        <script src="{{ asset('js/enable-push.js') }}" defer></script>
+    @endauth
 </body>
 </html>

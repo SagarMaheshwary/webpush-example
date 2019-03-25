@@ -1,12 +1,12 @@
-# Laravel Web Push Example
-A basic example of using webpush notifications with laravel and Javascript. Push Notifications are a part of Service Workers and It requires HTTPS unless you are using localhost.
+# Laravel Web Push Example With Guest Users
+A branch version that allows sending push notifications to all the browsers whether authenticated or not.
 
 ## Running this web application
 - make sure you have xampp or wamp installed if you are on windows machine, mamp for mac , and lamp for linux.
 
 - clone this repository to your local machine or just download the zip.
 
-- install [Composer](https://getcomposer.org/download) first, then run this command in your command-line (you should be inside your project directory). 
+- install [Composer](https://getcomposer.org/download) first, then run this command in your command-line (you should be inside your project directory).
 ```bash
   composer install
 ```
